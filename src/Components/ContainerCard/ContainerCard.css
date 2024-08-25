@@ -1,0 +1,20 @@
+
+.containerCard {
+    width: 130%;
+    height: 1000px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    background-color: var(--background-color-main);
+    border-radius: var(--border-radius-section);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 90px;
+    transition: all 0.5s;
+    text-align: center;
+    justify-content: space-between;
+    align-items: top;
+    transform: skew(10deg,5deg);
+    transform: scale(0.7);
+  }

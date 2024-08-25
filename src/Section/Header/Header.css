@@ -1,0 +1,43 @@
+
+.Right{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 70%;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+.listIcon{
+    display: none;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (min-width: 400px) and (max-width: 1424px){
+    .listIcon{
+        display: flex;
+    }
+    .Right{
+        display: none;
+    }
+    .list{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 5px;
+        align-items: start;
+        gap: 20px;
+        background-color: black;
+        position: absolute;
+        right: 29px;
+        border-radius: 15px;
+        top: 48px;
+        z-index: 25;
+    }
+}

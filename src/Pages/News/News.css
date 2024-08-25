@@ -1,0 +1,28 @@
+ .mainSlider{
+    width: 90%;
+    margin-left: 48px;
+    height: fit-content;
+    position: relative;
+    background-color: var( --background-color-second);
+    border-radius: var(--border-radius-section);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    transition: all 0.5s;
+    align-items: center;
+    padding: 10px 5px 5px 5px;
+}
+.news_card{
+    width: 800px !important;
+    height: 600px !important;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--background-color-container);
+    border-radius: var(--border-radius-section);
+}

@@ -1,0 +1,9 @@
+.container{
+    width: 90%;
+    min-height: 100vh;
+    margin: 0px 50px;
+    background-color: var(--background-color-container);
+    border-radius: var(--border-radius-section);
+    padding: 1px;
+    position: relative;
+}

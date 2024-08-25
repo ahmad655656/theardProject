@@ -1,0 +1,85 @@
+/* .card{
+    min-width: 200px;
+    max-width: 400px;
+    height: -moz-fit-content;
+    height: min-content;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform: skew(21deg, 0deg);
+    box-shadow: -16px 9px 15px -1px var(--color-button);
+    background-color: var(--background-color-container);
+    border-radius: var(--border-radius-section);
+    transition: all 0.5s;
+} */
+.card:hover{
+    transform: skew(0deg, 0deg);
+    box-shadow: 0px 0px 0px 0px;
+    min-width: 300px;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.mainCard img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: var(--border-radius-section);
+}
+.mainCard .descSpan{
+    font-size: 30px;
+    color: var( --color-button);
+}
+.mainCard .rate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.news_card{
+    width: 888px !important;
+    height: 769px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--background-color-container);
+    border-radius: var(--border-radius-section);
+}
+@keyframes card1 {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-7000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+@keyframes card2 {
+    0%{
+        transform: rotate3d(0, 180, 0, 180deg);
+        
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: rotate3d(1, 1, 0, 360deg);
+    }
+    
+}

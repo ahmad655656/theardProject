@@ -1,0 +1,11 @@
+
+.SliderCard{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 14px;
+    align-items: center;
+    height: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}

@@ -1,0 +1,112 @@
+.home {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  filter: drop-shadow(7px 9px 7px black);
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.containerHome {
+  width: 80%;
+  height: 80%;
+  padding: 500px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-radius: 25px 0px 25px 0px;
+  position: relative;
+}
+/* .containerHome::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 366px);
+  top: -10%;
+  width: 60px;
+  min-height: 50vh;
+  z-index: -5;
+  color: white;
+  text-align: start;
+  border-radius: 0px 0px 0px 133px;
+  font-size: 60px;
+  background-color: #444;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transform: rotate3d(0, 0, 1, -100deg);
+  animation: after 200ms 0s ease-in-out 1 forwards;
+} */
+@keyframes after {
+  from {
+    transform-origin: center;
+    transform: rotate3d(1, 1, 1, -100deg);
+    translate: 50deg;
+    min-height: 100vh;
+  }
+  to {
+    transform: rotate3d(1, 1, 1, -300deg);
+    min-height: 100vh;
+    transform-origin: top;
+  }
+}
+.containerHome::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 387px);
+  top: -20%;
+  width: 60px;
+  min-height: 100vh;
+  z-index: -1;
+  border-radius: 0px 0px 0px 133px;
+  color: white;
+  text-align: end;
+  font-size: 40px;
+  background: linear-gradient(to bottom, #777, #222);
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 100deg);
+  animation: after 300ms 0s ease-in-out 1 forwards;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 389px);
+  border-radius: 20px;
+  top: -40%;
+  color: white;
+  border-radius: 0px 0px 0px 133px;
+  text-align: end;
+  font-size: 40px;
+  width: 60px;
+  min-height: 100vh;
+  z-index: -1;
+  background: linear-gradient(to bottom, #777, #222);
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 100deg);
+  animation: after 400ms 0s ease-in-out 1 forwards;
+}
+.home::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 388px);
+  font-size: 40px;
+  top: -30%;
+  width: 60px;
+  color: white;
+  text-align: end;
+  border-radius: 0px 0px 0px 133px;
+  min-height: 100vh;
+  z-index: -1;
+  background: linear-gradient(to bottom, #777, #222);
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 100deg);
+  animation: after 500ms 0s ease-in-out 1 forwards;
+}

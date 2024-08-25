@@ -1,0 +1,51 @@
+.contactAs{
+    width: 100%;
+    min-height: 90vh;
+    text-align: center;
+    position: relative;
+}
+.social{
+    color: var(--color-button);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+    bottom: 0;
+    position: absolute;
+    margin-top: 50px;
+}
+.icon{
+    transition: all 0.5s;
+    opacity: .6;
+}
+.icon:hover{
+    color: var(--color-button);
+    opacity: 1;
+}
+.socialIcon{
+    display: flex;
+    gap: 20px;
+}
+.image{
+    animation: image 2s 0s ease-in-out infinite alternate;
+    filter: drop-shadow(9px 31px 7px black);
+}
+@keyframes image {
+    0% {
+        transform: translate(-10px, -10px);
+        transform-origin: center;
+        transform-style: preserve-3d;
+        filter: drop-shadow(9px 31px 7px black);
+    }
+    100% {
+        transform: translate(10px, 10px);
+        filter: drop-shadow(23px 24px 4px black);
+    }
+}
+@media (max-width: 767px) {
+    .social{
+        flex-wrap: wrap;
+    }
+}

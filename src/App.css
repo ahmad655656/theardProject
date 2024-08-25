@@ -1,0 +1,38 @@
+:root {
+  --background-color-container: black;
+  --background-color-main: #1b1b1bee;
+  --background-color-second: #333;
+  --border-radius-section: 25px;
+  --color-text-address: #4b4a4a;
+  --color-button: rgba(9, 27, 187, 0.726);
+}
+.App {
+  background-color: var(--background-color-main);
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.light {
+  --background-color-container: #918e8e;
+  --background-color-main: #817f7fee;
+  --background-color-second: #6e6e6e;
+  --color-text-address: #1e1e1e;
+  --color-button: rgba(85, 85, 85, 0.726);
+  --hover-button: #8b8a8a;
+  --color-text-button: rgba(0, 45, 129, 0.966);
+}
+.dark {
+  --background-color-container: black;
+  --background-color-main: #111;
+  --background-color-second: #333;
+  --color-text-address: #333131;
+  --color-button: rgba(0, 45, 129, 0.966);
+  --hover-button: #888;
+  --color-text-button: #666666;
+}

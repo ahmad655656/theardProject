@@ -1,0 +1,62 @@
+.containersign{
+    display: flex;
+    flex-direction: column;
+    height: 0%;
+    align-items: center;
+    text-align: center;
+    padding: 73px 140px;
+    transition: all 0.5s;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+}
+.checkbox input{
+    width: 30px;
+    height: 30px;    
+    background-color: #222;
+}
+.input{
+    transform: skewX(30deg);
+    transition: skewX 0.5s;
+}
+.input:hover{
+    transform: skewX(0deg);
+}
+.one{
+    animation: one 2s 1s ease-in-out 1 alternate;
+}
+@keyframes one {
+    0%{
+        transform: translateX(-90px);
+    }
+    50%{
+        transform: translateX(90px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.two{
+    animation: two 2s 1s ease-in-out 1 alternate;
+}
+@keyframes two {
+    0%{
+        transform: translateX(90px);
+    }
+    50%{
+        transform: translateX(-90px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,36 @@
+
+.span_title {
+  position: absolute;
+  right: 0;
+  transition: all;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation: a 4s 1s infinite alternate;
+  mix-blend-mode: soft-light;
+}
+@keyframes a {
+  0% {
+    right: 0%;
+    mix-blend-mode: soft-light;
+  }
+  25% {
+    right: 70%;
+    mix-blend-mode: darken;
+  }
+  50% {
+    right: 60%;
+    mix-blend-mode: darken;
+  }
+  75% {
+    right: 40%;
+    mix-blend-mode: soft-light;
+  }
+  100% {
+    right: 20%;
+    mix-blend-mode: soft-light;
+  }
+}
+.parent_title {
+  transform: scale(0.9);
+}
+

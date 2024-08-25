@@ -1,0 +1,29 @@
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: var(--background-color-second);
+}
+.contain h3{
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--color-button);
+}
+.contain .switch{
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 43px;
+    border-radius: 50%;
+    background-color:blue;
+    transition: all 0.5s;
+}
+.img{
+    width: 42px;
+    height: 42px;
+    margin: 2px;
+}

@@ -1,0 +1,14 @@
+.title{
+    font-size: 46px;
+    font-weight: 900;
+    filter: none;
+    letter-spacing: 2px;
+}
+@keyframes title {
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
