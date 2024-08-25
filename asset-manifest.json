@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/theardProject/static/css/main.3698bd1f.css",
+    "main.js": "/theardProject/static/js/main.f6886e4d.js",
+    "static/js/453.fc0c2ef0.chunk.js": "/theardProject/static/js/453.fc0c2ef0.chunk.js",
+    "static/media/photo_sign.png": "/theardProject/static/media/photo_sign.8496e5ed729ab066d099.png",
+    "static/media/Heart.png": "/theardProject/static/media/Heart.acc82d4e1755f33abef1.png",
+    "static/media/boyka.png": "/theardProject/static/media/boyka.a03e89e538e4283f25f1.png",
+    "static/media/instagram.png": "/theardProject/static/media/instagram.e8db2ca0509ce30dbc54.png",
+    "static/media/moon.png": "/theardProject/static/media/moon.164ae43bddc73d0c7bbf.png",
+    "static/media/facebook.png": "/theardProject/static/media/facebook.7b3f5f55f27b8297a3ba.png",
+    "static/media/tele.png": "/theardProject/static/media/tele.b4b4208cc472fdcd80e2.png",
+    "static/media/youtupe.png": "/theardProject/static/media/youtupe.e0efbcfba2580981f7bc.png",
+    "index.html": "/theardProject/index.html",
+    "main.3698bd1f.css.map": "/theardProject/static/css/main.3698bd1f.css.map",
+    "main.f6886e4d.js.map": "/theardProject/static/js/main.f6886e4d.js.map",
+    "453.fc0c2ef0.chunk.js.map": "/theardProject/static/js/453.fc0c2ef0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3698bd1f.css",
+    "static/js/main.f6886e4d.js"
+  ]
+}
